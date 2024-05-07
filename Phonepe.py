@@ -75,7 +75,7 @@ selected = option_menu(
 if selected == "Home":
     col1,col2, = st.columns(2)
     with col1:
-        st.image("Images\phn1.png")
+        st.image("Images\phonepe-1686727535.jpg")
         st.markdown("##### ⭐ ***PhonePe  is an Indian digital payments and financial technology company headquartered in Bengaluru, Karnataka, India.***")
         st.markdown("##### ⭐***PhonePe was founded in December 2015, by Sameer Nigam, Rahul Chari and Burzin Engineer.***")
         st.markdown("##### ⭐***The PhonePe app, based on the Unified Payments Interface (UPI), went live in August 2016.***")
@@ -84,14 +84,14 @@ if selected == "Home":
     with col2:
         col1,col2, = st.columns(2)
         with col1:
-            st.image("D:\project1\Images\ph22.png")
-            st.image("D:\project1\Images\phonepe11.png")
+            st.image("Images\ph22.png")
+            st.image("Images\phonepe11.png")
         with col2:
-            st.image("D:\project1\Images\ph331.png")
-            st.image("D:\project1\Images\phonepe22.png")
+            st.image("Images\ph331.png")
+            st.image("Images\phonepe22.png")
 
 if selected == "Basic Insights":
-        st.image("D:\project1\Images\phn11.png")
+        st.image("Images\phn11.png")
         st.title("BASIC INSIGHTS")
         st.title("")
         st.subheader("Let's know some basic insights about the data")
@@ -456,8 +456,8 @@ if selected == "Analysis":
 if selected == "About":
     col1,col2,col3, = st.columns(3)
     with col1:
-        st.info("DOWNLOAD THE APP NOW: 👉[https://www.phonepe.com/app-download/]")
-        st.image("D:\project1\Images\ph22.png")
+        st.info("DOWNLOAD THE APP NOW: [https://www.phonepe.com/app-download/]")
+        st.image("Images\ph22.png")
 
     with col2:
         st.markdown("### ***:violet[About:]***")
@@ -469,5 +469,5 @@ if selected == "About":
         st.markdown("##### ⭐ ***Founded in December 2015, PhonePe has been a strong beneficiary of the API driven digitisation of payments in India. When we started, we were constantly looking for granular and definitive data sources on digital payments in India.***")
         st.markdown("##### ⭐ ***PhonePe Pulse is our way of giving back to the digital payments ecosystem.***")
         st.markdown("##### ⭐ ***Phonepe Now Everywhere..!***")
-        st.image("D:\project1\Images\phonepe11.png")
-        st.image("D:\project1\Images\phonepe22.png")
+        st.image("Images\phonepe11.png")
+        st.image("Images\phonepe22.png")
